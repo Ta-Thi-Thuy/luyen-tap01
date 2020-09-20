@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let N = +prompt('Nhap mot so chia het cho 7 :');
+    let sum = 0;
+    let count = 0;
+    let starNumber = 1;
+    while (count<N){
+        if (starNumber%7==0){
+            sum+=starNumber;
+            count++;
+        }
+    starNumber++;
+    }
+    document.write('Tong cua ' + count +" so chia het cho 7 la :" + sum);
+
+</script>
+
+</body>
+</html>
